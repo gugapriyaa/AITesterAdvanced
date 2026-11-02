@@ -1,0 +1,5 @@
+# Local secrets / credentials
+.env
+
+# Command Code local state
+.commandcode/
