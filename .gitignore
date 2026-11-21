@@ -1,5 +1,7 @@
 # Local secrets / credentials
 .env
-
+.env.*
+!.env.example
 # Command Code local state
 .commandcode/
+.tools/

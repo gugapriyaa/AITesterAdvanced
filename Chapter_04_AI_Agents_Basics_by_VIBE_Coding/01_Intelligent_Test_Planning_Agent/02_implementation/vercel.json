@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "ai5x-testplan-aiagent",
+  "buildCommand": "npm --prefix src/frontend install && npm --prefix src/frontend run build",
+  "outputDirectory": "src/frontend/dist",
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/index.js" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
